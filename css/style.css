@@ -1,56 +1,82 @@
 body{
-    font-family:'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
-
 .header{
     min-height: 800px;
     margin-bottom: 120px;
 }
 .header-table{
-    width: 50%;
+    width: 630px;
     height: 800px;
     background: url(../img/header-table.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0%;
+    right: 0%;
     z-index: -1;
 }
 
 .header-container{
-    height: 450px;
+    height: 540px;
     display: flex;
     align-items: center;
 }
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-    color: #DAA520;
+.nav-link.active{
+    color: #DAA520 !important;
 }
+.funiture-text-center{
+    align-items: center;
 
+}
+.funiture{
+    min-height: 415px;
+}
+.funiture h3{
+    color: #3E3F43;
+    font-size: 2.25rem;
+}
+.funiture p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.header-with-logo{
+    background: url(../img/logito.jpg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.cucharas{
+    background: url(../img/cucharas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 384px;
+    width: 22%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.text-gray-opacity{
+    color: rgba(34, 34, 34, 0.1);
+    font-size: 4.5rem;
+}
 .button{
     background: #DAA520;
     text-decoration: none;
-    color:#ffffff;
-    padding: 8px;
+    color: #ffff;
+    padding: 10px;
     border-radius: 4px;
-
+    transition: 0.5s all ease;
 }
-.woodies-furtinure{
-    min-height: 415px;
+.button:haver{
+    background: #ffffff;
 }
-.woodies-furtinure-center{
-    display: flex;
-    align-items: center;
-}
-
-.woodies-furtinure h3{
-    color: #3e3f43;
-    font-size: 36p2.25rem;
-
-}
-.woodies-furtinure p{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #000000;
+.ultimo{
+    background: url(../img/ultimo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 455px;
+    width: 508px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
